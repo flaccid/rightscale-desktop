@@ -1,0 +1,45 @@
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  color: white;
+  height: 100vh;
+  background-color: #333333;
+  font-family: Arial, Helvetica, Helvetica Neue;
+  overflow-y: hidden;
+}
+
+#header {
+ height: 35px;
+ width: 100%;
+ background: #1E4A7E top-right url('https://us-4.rightscale.com/ui/right-site-dashboard/e8756b142cb44dd21d7202c2bc7779bad67898fd/images/rs_logo.svg') no-repeat;
+ position: absolute
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: -.025em;
+  color: #fff;
+}
+
+p {
+  font-size: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  opacity: .75;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
